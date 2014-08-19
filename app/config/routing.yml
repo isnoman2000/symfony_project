@@ -1,0 +1,4 @@
+staff_traning:
+    resource: "@StaffTraningBundle/Resources/config/routing.yml"
+    prefix:   /
+
