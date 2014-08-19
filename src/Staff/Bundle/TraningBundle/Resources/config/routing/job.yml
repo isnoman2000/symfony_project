@@ -1,0 +1,30 @@
+job:
+    path:     /
+    defaults: { _controller: "StaffTraningBundle:Job:index" }
+
+job_show:
+    path:     /{id}/show
+    defaults: { _controller: "StaffTraningBundle:Job:show" }
+
+job_new:
+    path:     /new
+    defaults: { _controller: "StaffTraningBundle:Job:new" }
+
+job_create:
+    path:     /create
+    defaults: { _controller: "StaffTraningBundle:Job:create" }
+    requirements: { _method: post }
+
+job_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "StaffTraningBundle:Job:edit" }
+
+job_update:
+    path:     /{id}/update
+    defaults: { _controller: "StaffTraningBundle:Job:update" }
+    requirements: { _method: post|put }
+
+job_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "StaffTraningBundle:Job:delete" }
+    requirements: { _method: post|delete }

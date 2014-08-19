@@ -1,0 +1,7 @@
+parameters:
+#    staff_traning.example.class: Staff\Bundle\TraningBundle\Example
+
+services:
+#    staff_traning.example:
+#        class: %staff_traning.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
